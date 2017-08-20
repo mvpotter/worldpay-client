@@ -1,0 +1,38 @@
+package com.mvpotter.worldpay.client.model.transaction;
+
+/**
+ * @author mvpotter
+ * @since 12/08/2017
+ */
+public enum TransactionType {
+
+    AUTH_ONLY,
+    PARTIAL_AUTH_ONLY,
+    AUTH_CAPTURE,
+    PARTIAL_AUTH_CAPTURE,
+    PRIOR_AUTH_CAPTURE,
+    UPDATE_TRANS_INFO,
+    CAPTURE_ONLY,
+    VOID,
+    PARTIAL_VOID,
+    CREDIT,
+    CREDIT_AUTHONLY,
+    CREDIT_PRIORAUTHCAPTURE,
+    FORCE_CREDIT,
+    FORCE_CREDIT_AUTHONLY,
+    FORCE_CREDIT_PRIORAUTHCAPTURE,
+    VERIFY,
+    ACCOUNT_VERIFICATION,
+    AUTH_INCREMENT,
+    ISSUE,
+    ACTIVATE,
+    REDEEM,
+    REDEEM_PARTIAL,
+    DEACTIVATE,
+    REACTIVATE,
+    INQUIRY_BALANCE,
+    RECHARGE,
+    ISSUE_VIRTUAL,
+    CASH_OUT
+
+}
