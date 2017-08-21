@@ -8,10 +8,10 @@ Add the JitPack repository to your build file
 
 ```
 <repositories>
-	<repository>
-	    <id>jitpack.io</id>
-	    <url>https://jitpack.io</url>
-	</repository>
+    <repository>
+        <id>jitpack.io</id>
+        <url>https://jitpack.io</url>
+    </repository>
 </repositories>
 ```
 
@@ -19,11 +19,10 @@ Add the dependency
 
 ```
 <dependency>
-	<groupId>com.github.mvpotter</groupId>
-	<artifactId>worldpay-client</artifactId>
+    <groupId>com.github.mvpotter</groupId>
+    <artifactId>worldpay-client</artifactId>
     <version>1.0.0</version>
 </dependency>
-
 ```
 
 ### Worldpay credentials
