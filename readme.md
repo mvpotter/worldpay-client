@@ -6,7 +6,7 @@
 
 Add the JitPack repository to your build file
 
-```
+``` xml
 <repositories>
     <repository>
         <id>jitpack.io</id>
@@ -17,7 +17,7 @@ Add the JitPack repository to your build file
 
 Add the dependency
 
-```
+``` xml
 <dependency>
     <groupId>com.github.mvpotter</groupId>
     <artifactId>worldpay-client</artifactId>
@@ -37,7 +37,7 @@ To perform authentication Worldpay requires three types of keys:
 
 Create Worldpay client instance
 
-```
+``` java
 import com.mvpotter.worldpay.client.RetrofitWorldPayClient;
 import com.mvpotter.worldpay.client.WorldPayClient;
 
@@ -46,7 +46,7 @@ final WorldPayClient client = new RetrofitWorldPayClient("secureNetId", "secureK
 
 Invoke client method
 
-```
+``` java
 import com.mvpotter.worldpay.client.model.Card;
 import com.mvpotter.worldpay.client.request.ChargeRequest;
 import com.mvpotter.worldpay.client.exception.WorldPayException;
